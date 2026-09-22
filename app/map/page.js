@@ -13,7 +13,7 @@ import {
   Navigation,
   Loader2,
 } from 'lucide-react';
-import { LOCATION_TYPES } from '@/models/Location';
+import { LOCATION_TYPES } from '@/lib/constants';
 
 function MapContent() {
   const router = useRouter();

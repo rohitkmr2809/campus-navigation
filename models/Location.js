@@ -1,19 +1,5 @@
 import mongoose from 'mongoose';
-
-export const LOCATION_TYPES = [
-  'Building',
-  'Department',
-  'Classroom',
-  'Laboratory',
-  'Library',
-  'Canteen',
-  'Hostel',
-  'Parking',
-  'Office',
-  'Sports',
-  'Gate',
-  'Other',
-];
+import { LOCATION_TYPES } from '@/lib/constants';
 
 const LocationSchema = new mongoose.Schema(
   {

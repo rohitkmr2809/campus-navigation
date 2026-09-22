@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { LOCATION_TYPES } from '@/models/Location';
+import { LOCATION_TYPES } from '@/lib/constants';
 import {
   MapPin,
   Plus,

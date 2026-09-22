@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { LOCATION_TYPES } from '@/models/Location';
+import { LOCATION_TYPES } from '@/lib/constants';
 import { requireAdmin } from '@/lib/auth';
 import {
   getLocationById,

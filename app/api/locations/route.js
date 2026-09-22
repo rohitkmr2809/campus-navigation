@@ -1,7 +1,7 @@
 export const dynamic = 'force-dynamic';
 
 import { NextResponse } from 'next/server';
-import { LOCATION_TYPES } from '@/models/Location';
+import { LOCATION_TYPES } from '@/lib/constants';
 import { requireAdmin } from '@/lib/auth';
 import { getAllLocations, createLocation } from '@/lib/data-service';
 

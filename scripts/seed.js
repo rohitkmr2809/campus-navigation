@@ -17,6 +17,11 @@
 
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+import pkg from '@next/env';
+const { loadEnvConfig } = pkg;
+
+const projectDir = process.cwd();
+loadEnvConfig(projectDir);
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/campus_navigation';
 

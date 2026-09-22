@@ -3,7 +3,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import LocationCard from '@/components/LocationCard';
-import { LOCATION_TYPES } from '@/models/Location';
+import { LOCATION_TYPES } from '@/lib/constants';
 import {
   Building2,
   Search,
